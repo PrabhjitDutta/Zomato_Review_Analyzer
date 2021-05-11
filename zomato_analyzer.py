@@ -16,6 +16,7 @@ import pickle
 
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('wordnet')
 
 
 st.write("# Zomato Review Analyzer")
