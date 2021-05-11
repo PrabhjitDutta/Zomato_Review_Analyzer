@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import re
+import nltk
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -11,6 +12,9 @@ import plotly.express as px
 import requests
 import json
 import pickle
+
+
+nltk.download('stopwords')
 
 
 st.write("# Zomato Review Analyzer")
