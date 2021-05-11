@@ -1,0 +1,10 @@
+requests
+pickle
+pandas
+streamlit
+numpy
+re
+nltk
+sklearn
+plotly
+json
