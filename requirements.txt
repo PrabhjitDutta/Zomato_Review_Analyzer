@@ -3,7 +3,7 @@ pickles
 pandas
 streamlit
 numpy
-re
+regex
 nltk
 sklearn
 plotly
