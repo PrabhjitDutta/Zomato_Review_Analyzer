@@ -14,13 +14,14 @@ import json
 import pickle
 
 
+st.write("# Zomato Review Analyzer")
+st.write("##  ")
+
+
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
-
-st.write("# Zomato Review Analyzer")
-st.write("##  ")
 
 
 def unigram(corpus, n=None):
