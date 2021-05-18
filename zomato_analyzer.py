@@ -18,10 +18,11 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
+'''
 a = True
 if a:
 	pass
-
+'''
 
 st.write("# Zomato Review Analyzer")
 st.write("##  ")
