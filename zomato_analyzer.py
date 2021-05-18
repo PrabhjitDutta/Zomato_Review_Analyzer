@@ -93,7 +93,7 @@ if res_id != "":
         st.text('Finished')
 
 
-        df = pd.read_csv('test.tsv', delimiter = '\t', quoting = 3, encoding='cp1252')
+        df = pd.read_csv('test.tsv', delimiter = '\t', quoting = 3, encoding='utf8')
 
         corpus=[]
         lemma = WordNetLemmatizer()
